@@ -68,7 +68,7 @@
             android:layout_marginEnd="32dp"
             android:background="@color/colorPrimary"
             android:onClick="loginCreateUserBtnClicked"
-            android:text="Sing Up Here"
+            android:text="Зарегистрироваться"
             android:textColor="@android:color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

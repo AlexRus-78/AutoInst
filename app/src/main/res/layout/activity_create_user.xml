@@ -11,7 +11,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="32dp"
             android:layout_marginEnd="32dp"
             android:ems="10"
             android:hint="User name"
@@ -85,13 +85,12 @@
             android:layout_marginEnd="32dp"
             android:background="@color/colorPrimary"
             android:onClick="backgroundColorClicked"
-            android:text="Button"
+            android:text="Изменить цвет фона"
             android:textColor="@android:color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/createAvatarImageView"
-            tools:text="Выберите цвет аватара" />
+            app:layout_constraintTop_toBottomOf="@+id/createAvatarImageView" />
 
     <Button
             android:id="@+id/createUserBtn"
@@ -99,12 +98,13 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
             android:background="@color/colorPrimary"
             android:onClick="createUserClicked"
-            android:text="Create User"
+            android:text="Создать Пользователя"
             android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="624dp" />
+            app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
